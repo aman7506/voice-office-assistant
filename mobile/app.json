@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Voice Office Assistant",
+    "slug": "voice-office-assistant-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "API_BASE_URL": "http://192.168.3.26:5000"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.voiceofficeassistantmobile"
+    },
+    "android": {
+      "package": "com.anonymous.voiceofficeassistantmobile"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "scheme": "voice-office-assistant"
+  }
+}
